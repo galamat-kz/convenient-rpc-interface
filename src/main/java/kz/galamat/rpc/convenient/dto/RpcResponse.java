@@ -1,4 +1,4 @@
-package kz.galamat.rpc.convenient;
+package kz.galamat.rpc.convenient.dto;
 
 import lombok.*;
 
