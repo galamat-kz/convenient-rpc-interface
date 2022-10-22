@@ -1,4 +1,4 @@
-package kz.galamat.rpc.convenient.exceptions;
+package kz.galamat.rpc.convenient;
 
 import lombok.Getter;
 
