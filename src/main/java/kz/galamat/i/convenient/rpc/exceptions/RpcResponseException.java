@@ -29,6 +29,7 @@ public class RpcResponseException extends RuntimeException {
     }
 
     public RpcResponseException(int status, String reason) {
+        super("Status: " + status + ", reason: " + reason);
         this.status = status;
         this.reason = reason;
     }
