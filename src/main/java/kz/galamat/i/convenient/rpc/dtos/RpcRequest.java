@@ -16,6 +16,7 @@ public class RpcRequest implements Serializable {
     private String path;
     @NonNull
     private String method;
+    private Map<String, List<String>> headers;
     private Map<String, List<String>> queryParams;
     private Object body;
 

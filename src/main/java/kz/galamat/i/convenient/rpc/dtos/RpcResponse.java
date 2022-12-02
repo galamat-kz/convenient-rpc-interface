@@ -3,6 +3,7 @@ package kz.galamat.i.convenient.rpc.dtos;
 import lombok.*;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Map;
 
 @Data
@@ -15,6 +16,7 @@ public class RpcResponse implements Serializable {
     private String path;
     @NonNull
     private String method;
+    private Map<String, List<String>> headers;
     private Map<String, String> queryParams;
     private Object body;
 
